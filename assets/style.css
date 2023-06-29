@@ -1,19 +1,47 @@
+/*common*/
+
 * {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
 
+:root {
+    --h1-title: #e53170;
+    --p-text: #121241;
+    --bg-box: #0f0e17;
+    --text-email: #6bcaf1;
+    
+
+}
+
+/*header*/
+
 header {
     text-align: center;
     max-width: 1170px;
-
+    margin-left: 100px;
     margin-bottom: 40px;
+    font-family: 'Fredoka' , sans-serif;
 }
+
+
 
 h1 {
     padding: 30px;
+    color: #e53170;
 }
+
+
+p {
+    color: #121241;
+    font-size: medium;
+
+    
+}
+
+
+/*main*/
 
 .container {
     max-width: 1170px;
@@ -22,11 +50,15 @@ h1 {
 }
 
 .col {
-    background-color: black;
+    background-color: #0f0e17;
     float: left;
     width: calc(100% / 3 - 2rem);
     margin: 1rem;
     color: white;
+    box-shadow: 0 0 5px black;
+    
+    
+
 }
 
 
@@ -43,16 +75,24 @@ h1 {
 }
 img {
     width: 5rem;
+    margin-right: 1rem;
 }
 
 
 h3 {
     font-weight: 700;
+    padding: 10px;
     
 }
 
+h5 {
+    padding: 5px;
+}
 
-.debug .col {
-height: 200px;
-background-color: red;
+.impiego {
+    color: rgb(158, 156, 156);
+}
+
+.email {
+    color: #6bcaf1;
 }
